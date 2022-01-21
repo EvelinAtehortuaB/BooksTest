@@ -1,0 +1,17 @@
+D:\Prueba\Bookstore\Logic\bin\Debug\net5.0\Logic.deps.json
+D:\Prueba\Bookstore\Logic\bin\Debug\net5.0\Logic.dll
+D:\Prueba\Bookstore\Logic\bin\Debug\net5.0\ref\Logic.dll
+D:\Prueba\Bookstore\Logic\bin\Debug\net5.0\Logic.pdb
+D:\Prueba\Bookstore\Logic\bin\Debug\net5.0\DataAccess.dll
+D:\Prueba\Bookstore\Logic\bin\Debug\net5.0\Repository.dll
+D:\Prueba\Bookstore\Logic\bin\Debug\net5.0\DataAccess.pdb
+D:\Prueba\Bookstore\Logic\bin\Debug\net5.0\Repository.pdb
+D:\Prueba\Bookstore\Logic\obj\Debug\net5.0\Logic.csproj.AssemblyReference.cache
+D:\Prueba\Bookstore\Logic\obj\Debug\net5.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prueba\Bookstore\Logic\obj\Debug\net5.0\Logic.AssemblyInfoInputs.cache
+D:\Prueba\Bookstore\Logic\obj\Debug\net5.0\Logic.AssemblyInfo.cs
+D:\Prueba\Bookstore\Logic\obj\Debug\net5.0\Logic.csproj.CoreCompileInputs.cache
+D:\Prueba\Bookstore\Logic\obj\Debug\net5.0\Logic.csproj.CopyComplete
+D:\Prueba\Bookstore\Logic\obj\Debug\net5.0\Logic.dll
+D:\Prueba\Bookstore\Logic\obj\Debug\net5.0\ref\Logic.dll
+D:\Prueba\Bookstore\Logic\obj\Debug\net5.0\Logic.pdb

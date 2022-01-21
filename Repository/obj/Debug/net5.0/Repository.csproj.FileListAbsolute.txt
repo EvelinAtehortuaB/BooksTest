@@ -1,0 +1,15 @@
+D:\Prueba\Bookstore\Repository\bin\Debug\net5.0\Repository.deps.json
+D:\Prueba\Bookstore\Repository\bin\Debug\net5.0\Repository.dll
+D:\Prueba\Bookstore\Repository\bin\Debug\net5.0\ref\Repository.dll
+D:\Prueba\Bookstore\Repository\bin\Debug\net5.0\Repository.pdb
+D:\Prueba\Bookstore\Repository\bin\Debug\net5.0\DataAccess.dll
+D:\Prueba\Bookstore\Repository\bin\Debug\net5.0\DataAccess.pdb
+D:\Prueba\Bookstore\Repository\obj\Debug\net5.0\Repository.csproj.AssemblyReference.cache
+D:\Prueba\Bookstore\Repository\obj\Debug\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prueba\Bookstore\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
+D:\Prueba\Bookstore\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs
+D:\Prueba\Bookstore\Repository\obj\Debug\net5.0\Repository.csproj.CoreCompileInputs.cache
+D:\Prueba\Bookstore\Repository\obj\Debug\net5.0\Repository.csproj.CopyComplete
+D:\Prueba\Bookstore\Repository\obj\Debug\net5.0\Repository.dll
+D:\Prueba\Bookstore\Repository\obj\Debug\net5.0\ref\Repository.dll
+D:\Prueba\Bookstore\Repository\obj\Debug\net5.0\Repository.pdb

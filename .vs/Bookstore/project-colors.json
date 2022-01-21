@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bcfc0430-ce6e-4765-b532-f49c1000cbba": {
+      "ProjectGuid": "bcfc0430-ce6e-4765-b532-f49c1000cbba",
+      "DisplayName": "BookStoreAPI",
+      "ColorIndex": 0
+    },
+    "eb0e85b3-d0f1-4da9-8fb9-edbf24ec5d77": {
+      "ProjectGuid": "eb0e85b3-d0f1-4da9-8fb9-edbf24ec5d77",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 1
+    },
+    "3f3bc5cc-6106-414c-b47e-d074561e7646": {
+      "ProjectGuid": "3f3bc5cc-6106-414c-b47e-d074561e7646",
+      "DisplayName": "Repository",
+      "ColorIndex": 2
+    },
+    "9820ae44-f563-4263-99d0-0936e95ffff6": {
+      "ProjectGuid": "9820ae44-f563-4263-99d0-0936e95ffff6",
+      "DisplayName": "Logic",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

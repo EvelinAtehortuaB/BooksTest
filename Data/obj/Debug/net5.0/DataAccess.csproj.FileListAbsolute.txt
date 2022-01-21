@@ -1,0 +1,12 @@
+D:\Prueba\Bookstore\Data\bin\Debug\net5.0\DataAccess.deps.json
+D:\Prueba\Bookstore\Data\bin\Debug\net5.0\DataAccess.dll
+D:\Prueba\Bookstore\Data\bin\Debug\net5.0\ref\DataAccess.dll
+D:\Prueba\Bookstore\Data\bin\Debug\net5.0\DataAccess.pdb
+D:\Prueba\Bookstore\Data\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\Prueba\Bookstore\Data\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prueba\Bookstore\Data\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\Prueba\Bookstore\Data\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\Prueba\Bookstore\Data\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Prueba\Bookstore\Data\obj\Debug\net5.0\DataAccess.dll
+D:\Prueba\Bookstore\Data\obj\Debug\net5.0\ref\DataAccess.dll
+D:\Prueba\Bookstore\Data\obj\Debug\net5.0\DataAccess.pdb

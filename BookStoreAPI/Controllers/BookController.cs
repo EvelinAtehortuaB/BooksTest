@@ -1,4 +1,5 @@
 ﻿using DataAccess.Common;
+using DataAccess.DTOs.Request;
 using DataAccess.DTOs.Response;
 using DataAccess.Enums;
 using Logic.Contracts;
@@ -27,12 +28,43 @@ namespace BookStoreAPI.Controllers
 
         #region [ Methods ]
         /// <summary>
+        /// Create
+        /// </summary>
+        /// <param name="request">BookRQ object</param>
+        /// <returns></returns>
+        /// <response code="200">Ok</response>
+        /// <response code="204">Successfully request and do not return any content</response>
+        /// <response code="400">The request is invalid</response>
+        /// <response code="500">Internal Server Error</response>
+        [HttpPost("Create")]
+        public async Task<IActionResult> Post([FromBody] BookRQ request)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    var _result = await _bookLogic.AddAsync(request);
+                    if (_result != null)
+                        return Ok(_result);
+                    else
+                        return NoContent();
+
+                }
+                return BadRequest(new { success = false, message = Messages.GetMessage(ResultCodes.ValidationError) });
+            }
+            catch (System.Exception ex)
+            {
+                return StatusCode(500, Messages.GetMessage(ResultCodes.InternalServerError));
+            }
+        }
+
+        /// <summary>
         /// Get list
         /// </summary>
         /// <remarks>
-        /// Get  all user list
+        /// Get  all books by entered value 
         /// </remarks>
-        /// <returns>UserRS list</returns>
+        /// <returns>BookRS list</returns>
         /// <response code="200">Ok</response>
         /// <response code="204">Successfully request and do not return any content</response>
         /// <response code="400">The request is invalid</response>

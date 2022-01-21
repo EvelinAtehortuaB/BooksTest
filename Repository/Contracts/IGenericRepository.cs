@@ -15,5 +15,9 @@ namespace Repository.Contracts
         #region [ Add ]
         Task AddAsync(TEntity entity);
         #endregion [ Add ]
+
+        #region [ FirstOrDefault ]
+        Task<TEntity> FirstOrDefaultAsync(Expression<Func<TEntity, bool>> filter, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, string includeProperties = "");
+        #endregion [ FirstOrDefault ]
     }
 }

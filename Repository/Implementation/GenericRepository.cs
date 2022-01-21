@@ -71,5 +71,40 @@ namespace Repository.Implementation
             }
         }
         #endregion [ Get ]
+
+        #region [ FirstOrDefault ]
+
+        public async Task<TEntity> FirstOrDefaultAsync(Expression<Func<TEntity, bool>> filter, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, string includeProperties = "")
+        {
+            try
+            {
+                IQueryable<TEntity> query = _dbSet;
+
+                if (filter != null)
+                {
+                    query = query.Where(filter);
+                }
+
+                foreach (var includeProperty in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProperty);
+                }
+
+                if (orderBy != null)
+                {
+                    return await orderBy(query).FirstOrDefaultAsync();
+                }
+                else
+                {
+                    return await query.FirstOrDefaultAsync();
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Write(ex);
+                return null;
+            }
+        }
+        #endregion [ FirstOrDefault ]
     }
 }
